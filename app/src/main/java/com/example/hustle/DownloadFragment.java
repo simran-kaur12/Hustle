@@ -25,8 +25,8 @@ import java.util.Objects;
 
 public class DownloadFragment extends Fragment {
 
-    View view;
     String data;
+    View view;
     ImageView back;
     Spinner bookId;
     Button ticket;
