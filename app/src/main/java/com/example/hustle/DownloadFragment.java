@@ -60,6 +60,8 @@ public class DownloadFragment extends Fragment {
             intent.putExtra("data",data);
             startActivity(intent);
 
+        });
+        fetch_data();
         return view;
     }
 
