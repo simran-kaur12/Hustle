@@ -27,8 +27,8 @@ public class DownloadFragment extends Fragment {
 
     String data;
     View view;
-    ImageView back;
     Spinner bookId;
+    ImageView back;
     Button ticket;
     ArrayList<String> ticket_list = new ArrayList<>();
     ArrayAdapter ticket_arrayAdapter;
