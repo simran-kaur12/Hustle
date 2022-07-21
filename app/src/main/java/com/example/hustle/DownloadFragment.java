@@ -61,7 +61,6 @@ public class DownloadFragment extends Fragment {
             startActivity(intent);
 
         });
-        fetch_data();
         return view;
     }
 
