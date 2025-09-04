@@ -5,7 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#512da8"
+<<<<<<< HEAD
     tools:context=".activity.MainScreen">
+=======
+    tools:context=".MainScreen">
+>>>>>>> 471684ea710d3df660608e525521cc7b8402b067
 
     <ImageView
         android:id="@+id/imageView"

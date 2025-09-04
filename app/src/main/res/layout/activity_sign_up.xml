@@ -8,7 +8,11 @@
     android:background="#512da8"
     android:focusableInTouchMode="true"
     android:gravity="center"
+<<<<<<< HEAD
     tools:context=".activity.SignUp">
+=======
+    tools:context=".SignUp">
+>>>>>>> 471684ea710d3df660608e525521cc7b8402b067
 
     <ScrollView
         android:layout_width="match_parent"

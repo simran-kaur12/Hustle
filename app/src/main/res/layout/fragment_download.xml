@@ -7,7 +7,11 @@
     android:background="#fff"
     android:clickable="true"
     android:focusable="true"
+<<<<<<< HEAD
     tools:context=".fragments.DownloadFragment">
+=======
+    tools:context=".DownloadFragment">
+>>>>>>> 471684ea710d3df660608e525521cc7b8402b067
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"

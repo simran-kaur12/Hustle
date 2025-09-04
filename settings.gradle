@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // settings.gradle
 
 pluginManagement {
@@ -23,3 +24,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Hustle"
 include ':app'
+=======
+include ':app'
+>>>>>>> 471684ea710d3df660608e525521cc7b8402b067

@@ -6,7 +6,11 @@
     android:background="#fff"
     android:clickable="true"
     android:focusable="true"
+<<<<<<< HEAD
     tools:context=".fragments.Admin_Login">
+=======
+    tools:context=".Admin_Login">
+>>>>>>> 471684ea710d3df660608e525521cc7b8402b067
 
     <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"

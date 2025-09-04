@@ -7,7 +7,11 @@
     android:background="#fff"
     android:clickable="true"
     android:focusable="true"
+<<<<<<< HEAD
     tools:context=".activity.add_bus">
+=======
+    tools:context=".add_bus">
+>>>>>>> 471684ea710d3df660608e525521cc7b8402b067
 <ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent">

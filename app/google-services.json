@@ -23,6 +23,7 @@
           }
         },
         {
+<<<<<<< HEAD
           "client_id": "473606116800-70311cvsipbata6m1qlq9mm56d0srmcu.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -39,6 +40,8 @@
           }
         },
         {
+=======
+>>>>>>> 471684ea710d3df660608e525521cc7b8402b067
           "client_id": "473606116800-8fpd0qpughvab88di9ljm81c7l4oof1a.apps.googleusercontent.com",
           "client_type": 3
         }

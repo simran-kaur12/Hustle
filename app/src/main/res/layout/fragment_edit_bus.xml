@@ -7,7 +7,11 @@
     android:background="#fff"
     android:clickable="true"
     android:focusable="true"
+<<<<<<< HEAD
     tools:context=".fragments.EditBusFragment">
+=======
+    tools:context=".EditBusFragment">
+>>>>>>> 471684ea710d3df660608e525521cc7b8402b067
 
 
     <LinearLayout

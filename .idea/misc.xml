@@ -67,8 +67,12 @@
       </map>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="24" project-jdk-type="JavaSDK">
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+>>>>>>> 471684ea710d3df660608e525521cc7b8402b067
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

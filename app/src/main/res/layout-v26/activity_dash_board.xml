@@ -4,7 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".activity.DashBoard">
+=======
+    tools:context=".DashBoard">
+>>>>>>> 471684ea710d3df660608e525521cc7b8402b067
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -186,7 +190,11 @@
                     android:layout_gravity="center_horizontal"
                     android:fontFamily="@font/calibri"
                     android:textStyle="bold"
+<<<<<<< HEAD
                     android:textColor="#000000"
+=======
+                    android:textColor="@color/black"
+>>>>>>> 471684ea710d3df660608e525521cc7b8402b067
                     android:text="Selected Date will be shown here"
                     />
 
