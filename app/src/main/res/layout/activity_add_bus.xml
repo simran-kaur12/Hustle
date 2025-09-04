@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".activity.add_bus">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="7dp"
+                android:fontFamily="@font/calibri"
+                android:paddingStart="5dp"
+                android:paddingTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                app:drawableStartCompat="@drawable/ic_baseline_directions_bus_24" />
+
+            <TextView
+                android:id="@+id/srce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/calibri"
+                android:paddingStart="5dp"
+                android:paddingTop="8dp"
+                android:text="@string/select_source"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                app:drawableStartCompat="@drawable/ic_location_on_light_blue_24dp" />
+
+            <Spinner
+                android:id="@+id/Source"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:contentDescription="@string/Select_src" />
+
+            <TextView
+                android:id="@+id/desti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/calibri"
+                android:paddingStart="5dp"
+                android:paddingTop="8dp"
+                android:text="@string/select_destination"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                app:drawableStartCompat="@drawable/ic_location_on_light_blue_24dp" />
+
+            <Spinner
+                android:id="@+id/Destination"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:contentDescription="@string/menu" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/calibri"
+                android:paddingStart="5dp"
+                android:paddingTop="8dp"
+                android:text="@string/arrival_time"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                app:drawableStartCompat="@drawable/ic_baseline_departure_board_24" />
+
+            <EditText
+                android:id="@+id/arrival_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/calibri"
+                android:importantForAutofill="no"
+                android:minHeight="48dp"
+                android:paddingTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/calibri"
+                android:paddingStart="5dp"
+                android:paddingTop="8dp"
+                android:text="DEPARTURE TIME"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                app:drawableStartCompat="@drawable/ic_baseline_departure_board_24" />
+
+            <EditText
+                android:id="@+id/dtime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/calibri"
+                android:minHeight="50dp"
+                android:paddingTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                tools:ignore="DuplicateSpeakableTextCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/calibri"
+                android:paddingStart="5dp"
+                android:paddingTop="8dp"
+                android:text="Select Bus Category"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                app:drawableStartCompat="@drawable/ic_location_on_light_blue_24dp" />
+
+            <Spinner
+                android:id="@+id/Category"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:contentDescription="@string/Select_src" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/calibri"
+                android:paddingTop="8dp"
+                android:text="BOARDING LOCATION"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                app:drawableStartCompat="@drawable/ic_baseline_edit_location_24" />
+
+            <EditText
+                android:id="@+id/board"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/calibri"
+                android:minHeight="50dp"
+                android:paddingTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/calibri"
+                android:paddingStart="5dp"
+                android:paddingTop="8dp"
+                android:text="DEPARTING LOCATION"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                app:drawableStartCompat="@drawable/ic_baseline_edit_location_24" />
+
+            <EditText
+                android:id="@+id/depart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/calibri"
+                android:minHeight="50dp"
+                android:paddingTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/calibri"
+                android:paddingStart="5dp"
+                android:paddingTop="8dp"
+                android:text="BUS NO."
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                app:drawableStartCompat="@drawable/ic_baseline_confirmation_number_24" />
+
+            <EditText
+                android:id="@+id/busNO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/calibri"
+                android:minHeight="50dp"
+                android:maxLines="1"
+                android:paddingTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/calibri"
+                android:paddingStart="5dp"
+                android:paddingTop="8dp"
+                android:text="@string/fare"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                app:drawableStartCompat="@drawable/ic_baseline_money_24" />
+
+            <EditText
+                android:id="@+id/fare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/calibri"
+                android:minHeight="50dp"
+                android:maxLines="1"
+                android:inputType="number"
+                android:paddingTop="8dp"
+                android:drawableStart="@drawable/ic_baseline_money_24"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/calibri"
+                android:paddingStart="5dp"
+                android:paddingTop="8dp"
+                android:text="DURATION"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                app:drawableStartCompat="@drawable/ic_baseline_more_time_24" />
+
+            <EditText
+                android:id="@+id/duration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/calibri"
+                android:maxLength="2"
+                android:hint="Enter hours 0 or more"
+                android:inputType="number"
+                android:importantForAutofill="no"
+                android:minHeight="50dp"
+                android:paddingTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/calibri"
+                android:paddingStart="5dp"
+                android:paddingTop="8dp"
+                android:text="TRAVEL AGENCY"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                app:drawableStartCompat="@drawable/ic_baseline_business_24" />
+
+            <EditText
+                android:id="@+id/travel_com"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/calibri"
+                android:maxLines="1"
+                android:minHeight="50dp"
+                android:paddingTop="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_shape"
+                android:fontFamily="@font/calibri"
+                android:text="SUBMIT"
+                android:layout_marginBottom="30dp"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,487 @@
+<resources>
+    <string name="app_name">Hustle</string>
+    <string name="hustle">HUSTLE</string>
+    <string name="travel">Let\'s See the World</string>
+    <string name="have_an_account">Already\nhave an \nAccount?</string>
+    <string name="hustle_logo">Hustle_Logo</string>
+    <string name="new_user_sign_up">New User? SIGN UP</string>
+    <string name="use_other_methods">Use Other Methods</string>
+    <string name="facebook">Facebook</string>
+    <string name="todo">TODO</string>
+    <string name="google">Google</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="go">GO</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="hey">Hey</string>
+    <string name="where_you_want_to_go">Where you want to go.</string>
+    <string name="search_buses">Search Buses</string>
+    <string name="destination">Destination</string>
+    <string name="source">Source</string>
+    <string name="select_date">Select Date*</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="bus_time">Bus Time</string>
+    <string name="phone_number">PHONE NUMBER</string>
+    <string name="email">EMAIL</string>
+    <string name="update">UPDATE</string>
+    <string name="booked">BOOKED</string>
+    <string name="full_name">FULL NAME</string>
+    <string name="logout">LOGOUT</string>
+    <string name="status">STATUS</string>
+    <string name="profile">PROFILE INFO</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_transform">Transform</string>
+    <string name="menu_reflow">Reflow</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="lorem_ipsum_title">Lorem Ipsum"</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply placeholder text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry\'s standard placeholder text ever
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+        type specimen book"
+    </string>
+    <string name="fab_content_description">Represents a view to invoke an action</string>
+    <string name="image_view_item_transform_content_description">Represents an image view in the
+        item
+    </string>
+    <string name="here_s_n_your_n_first_n_step_with_n_us">Here\'s\n your\n first \n step with \n us!</string>
+    <string name="already_a_user">Already a User?</string>
+    <string name="submit">Submit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="otp">We will send you an One Time Password on this given mobile number.</string>
+    <string name="otphead">OTP VERIFICATION</string>
+    <string name="_91">+91</string>
+    <string name="phone_hint">987654321</string>
+    <string name="get_otp">GET OTP</string>
+    <string name="resend_otp_again">RESEND OTP AGAIN</string>
+    <string name="didn_t_receive_the_otp">Didn\'t receive the OTP</string>
+    <string name="please_enter_the_otp_sent_to_you">Please enter the OTP sent to you</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="verify_otp">VERIFY OTP</string>
+    <string name="skip_this_step">SKIP THIS STEP</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="complete_n_your_n_profile">Complete\nYour\nProfile</string>
+    <string name="colon">:</string>
+    <string name="everything_ok">EVERYTHING OK!</string>
+    <string name="your_nprofile">YOUR \nPROFILE</string>
+    <string name="login_as_admin">Login as Admin</string>
+    <string name="select_source">Select Source*</string>
+    <string name="select_destination">Select Destination*</string>
+    <string name="Select_src">Select Source</string>
+    <string name="select_your_bus">Select your bus!</string>
+    <string name="seat">seat</string>
+    <string name="available">Available</string>
+    <string name="your_seat">Your Seat</string>
+    <string name="_1">1</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="_9">9</string>
+    <string name="_8">8</string>
+    <string name="_7">7</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_4">4</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="book_now">BOOK NOW</string>
+    <string name="pay_to_book">PAY TO BOOK</string>
+    <string name="menu">menu</string>
+    <string name="choose_your_work_from_menu">!Choose your Work from Menu!</string>
+    <string name="arrival_time">ARRIVAL TIME</string>
+    <string name="fare">FARE</string>
+
+
+    <string-array name="cities">
+        <item>Adilabad, Andhra Pradesh</item>
+        <item>Adoni, Andhra Pradesh</item>
+        <item>Alwal, Andhra Pradesh</item>
+        <item>Anantapur, Andhra Pradesh</item>
+        <item>Bheemavaram, Andhra Pradesh</item>
+        <item>Chittoor, Andhra Pradesh</item>
+        <item>Cuddapah, Andhra Pradesh</item>
+        <item>Dharmavaram, Andhra Pradesh</item>
+        <item>Guntur, Andhra Pradesh</item>
+        <item>Hyderabad, Andhra Pradesh</item>
+        <item>Kakinada, Andhra Pradesh</item>
+        <item>Kapra, Andhra Pradesh</item>
+        <item>Karimnagar, Andhra Pradesh</item>
+        <item>Khammam, Andhra Pradesh</item>
+        <item>Kurnool, Andhra Pradesh</item>
+        <item>Mahbubnagar, Andhra Pradesh</item>
+        <item>Nalgonda, Andhra Pradesh</item>
+        <item>Nellore, Andhra Pradesh</item>
+        <item>Nizamabad, Andhra Pradesh</item>
+        <item>Srikakulam, Andhra Pradesh</item>
+        <item>Tadepalligudem, Andhra Pradesh</item>
+        <item>Tenali, Andhra Pradesh</item>
+        <item>Tirupati, Andhra Pradesh</item>
+        <item>Visakhapatnam, Andhra Pradesh</item>
+        <item>Warangal, Andhra Pradesh</item>
+
+        <item>Dibrugarh, Assam</item>
+        <item>Guwahati, Assam</item>
+        <item>Nagaon, Assam</item>
+        <item>Silchar, Assam</item>
+
+        <item>Bettiah, Bihar</item>
+        <item>Bhagalpur, Bihar</item>
+        <item>Chapra, Bihar</item>
+        <item>Darbhanga, Bihar</item>
+        <item>Dehri, Bihar</item>
+        <item>Dinapur Nizamat, Bihar</item>
+        <item>Gaya, Bihar</item>
+        <item>Hajipur, Bihar</item>
+        <item>Katihar, Bihar</item>
+        <item>Motihari, Bihar</item>
+        <item>Munger, Bihar</item>
+        <item>Muzaffarpur, Bihar</item>
+        <item>Patna, Bihar</item>
+        <item>Purnia, Bihar</item>
+        <item>Saharsa, Bihar</item>
+        <item>Sasaram, Bihar</item>
+        <item>Siwan, Bihar</item>
+        <item>Chandigarh</item>
+
+        <item>Bhilai Nagar, Chhattisgarh</item>
+        <item>Bilaspur, Chhattisgarh</item>
+        <item>Durg, Chhattisgarh</item>
+        <item>Korba, Chhattisgarh</item>
+        <item>Raigarh, Chhattisgarh</item>
+        <item>Raipur, Chhattisgarh</item>
+        <item>Rajnandgaon, Chhattisgarh</item>
+
+        <item>Delhi, India</item>
+
+        <item>Ahmedabad, Gujarat</item>
+        <item>Anand, Gujarat</item>
+        <item>Bharuch, Gujarat</item>
+        <item>Bhavnagar, Gujarat</item>
+        <item>Botad, Gujarat</item>
+        <item>Gandhinagar, Gujarat</item>
+        <item>Ghatlodiya, Gujarat</item>
+        <item>Godhra, Gujarat</item>
+        <item>Jamnagar, Gujarat</item>
+        <item>Jetpur Navagadh, Gujarat</item>
+        <item>Junagadh, Gujarat</item>
+        <item>Kalol, Gujarat</item>
+        <item>Nadiad, Gujarat</item>
+        <item>Navsari, Gujarat</item>
+        <item>Palanpur, Gujarat</item>
+        <item>Patan, Gujarat</item>
+        <item>Porbandar, Gujarat</item>
+        <item>Rajkot, Gujarat</item>
+        <item>Surat, Gujarat</item>
+        <item>Surendranagar, Gujarat</item>
+        <item>Vadodara, Gujarat</item>
+        <item>Vejalpur, Gujarat</item>
+        <item>Veraval, Gujarat</item>
+
+        <item>Ambala, Haryana</item>
+        <item>Bahadurgarh, Haryana</item>
+        <item>Bhiwani, Haryana</item>
+        <item>Faridabad, Haryana</item>
+        <item>Gurgaon, Haryana</item>
+        <item>Hisar, Haryana</item>
+        <item>Jind, Haryana</item>
+        <item>Kaithal, Haryana</item>
+        <item>Karnal, Haryana</item>
+        <item>Palwal, Haryana</item>
+        <item>Panchkula, Haryana</item>
+        <item>Panipat, Haryana</item>
+        <item>Rewari, Haryana</item>
+        <item>Rohtak, Haryana</item>
+        <item>Sirsa, Haryana</item>
+        <item>Sonipat, Haryana</item>
+        <item>Thanesar, Haryana</item>
+        <item>Yamunanagar, Haryana</item>
+
+        <item>Shimla, Himachal Pradesh</item>
+
+        <item>Jammu, Jammu and Kashmir</item>
+        <item>Srinagar, Jammu and Kashmir</item>
+
+        <item>Bokaro, Jharkhand</item>
+        <item>Dhanbad, Jharkhand</item>
+        <item>Hazaribag, Jharkhand</item>
+        <item>Ranchi, Jharkhand</item>
+
+        <item>Bangalore, Karnataka</item>
+        <item>Belgaum, Karnataka</item>
+        <item>Bellary, Karnataka</item>
+        <item>Bhadravati, Karnataka</item>
+        <item>Bidar, Karnataka</item>
+        <item>Bijapur, Karnataka</item>
+        <item>Bommanahalli, Karnataka</item>
+        <item>Chikmagalur, Karnataka</item>
+        <item>Chitradurga, Karnataka</item>
+        <item>Davanagere, Karnataka</item>
+        <item>Gadag, Karnataka</item>
+        <item>Gulbarga, Karnataka</item>
+        <item>Hassan, Karnataka</item>
+        <item>Kolar, Karnataka</item>
+        <item>Mandya, Karnataka</item>
+        <item>Mangalore, Karnataka</item>
+        <item>Mysore, Karnataka</item>
+        <item>Raichur, Karnataka</item>
+        <item>Shimoga, Karnataka</item>
+        <item>Tumkur, Karnataka</item>
+        <item>Udupi, Karnataka</item>
+        <item>Thiruvananthapuram, Karnarka</item>
+
+
+        <item>Alappuzha, Kerala</item>
+        <item>Kochi, Kerala</item>
+        <item>Kollam, Kerala</item>
+        <item>Kozhikode, Kerala</item>
+        <item>Palakkad, Kerala</item>
+        <item>Thrissur, Kerala</item>
+        <item>Trivandrum, Kerala</item>
+
+        <item></item>Bhind, Madhya Pradesh
+        <item>Bhopal, Madhya Pradesh</item>
+        <item>Burhanpur, Madhya Pradesh</item>
+        <item>Chhindwara, Madhya Pradesh</item>
+        <item>Damoh, Madhya Pradesh</item>
+        <item>Dewas, Madhya Pradesh</item>
+        <item>Guna, Madhya Pradesh</item>
+        <item>Gwalior, Madhya Pradesh</item>
+        <item>Indore, Madhya Pradesh</item>
+        <item>Jabalpur, Madhya Pradesh</item>
+        <item>Khandwa, Madhya Pradesh</item>
+        <item>Mandsaur, Madhya Pradesh</item>
+        <item>Morena, Madhya Pradesh</item>
+        <item>Katni, Madhya Pradesh</item>
+        <item>Neemuch, Madhya Pradesh</item>
+        <item>Ratlam, Madhya Pradesh</item>
+        <item>Rewa, Madhya Pradesh</item>
+        <item>Sagar, Madhya Pradesh</item>
+        <item>Satna, Madhya Pradesh</item>
+        <item>Shivpuri, Madhya Pradesh</item>
+        <item>Ujjain, Madhya Pradesh</item>
+        <item>Vidisha, Madhya Pradesh</item>
+
+        <item>Ahmadnagar, Maharashtra</item>
+        <item>Akola, Maharashtra</item>
+        <item>Ambarnath, Maharashtra</item>
+        <item>Amravati, Maharashtra</item>
+        <item>Aurangabad, Maharashtra</item>
+        <item>Barshi, Maharashtra</item>
+        <item>Bhiwandi, Maharashtra</item>
+        <item>Bhusawal, Maharashtra</item>
+        <item>Bid, Maharashtra</item>
+        <item>Chandrapur, Maharashtra</item>
+        <item>Dhule, Maharashtra</item>
+        <item>Raigarh, Maharashtra</item>
+        <item>Parbhani, Maharashtra</item>
+        <item>Pune, Maharashtra</item>
+        <item>Sangli, Maharashtra</item>
+        <item>Satara, Maharashtra</item>
+        <item>Solapur, Maharashtra</item>
+        <item>Thane, Maharashtra</item>
+        <item>Wardha, Maharashtra</item>
+        <item>Yavatmal, Maharashtra</item>
+
+        <item>Baleshwar, Orissa</item>
+        <item>Bhubaneswar, Orissa</item>
+        <item>Brahmapur, Orissa</item>
+        <item>Cuttack, Orissa</item>
+        <item>Puri, Orissa</item>
+        <item>Raurkela, Orissa</item>
+        <item>Raurkela, Orissa</item>
+        <item>Sambalpur, Orissa</item>
+        <item>Sundargarh, Orissa</item>
+
+        <item>Abohar, Punjab</item>
+        <item>Amritsar, Punjab</item>
+        <item>Batala, Punjab</item>
+        <item>Bathinda, Punjab</item>
+        <item>Hoshiarpur, Punjab</item>
+        <item>Jalandhar, Punjab</item>
+        <item>Khanna, Punjab</item>
+        <item>Ludhiana, Punjab</item>
+        <item>Malerkotla, Punjab</item>
+        <item>Moga, Punjab</item>
+        <item>Mansa, Punjab</item>
+        <item>Barnala, Punjab</item>
+        <item>Pathankot, Punjab</item>
+        <item>Patiala, Punjab</item>
+        <item>Rajpura, Punjab</item>
+        <item>Mohali, Punjab</item>
+
+        <item>Ajmer, Rajasthan</item>
+        <item>Alwar, Rajasthan</item>
+        <item>Beawar, Rajasthan</item>
+        <item>Bharatpur, Rajasthan</item>
+        <item>Bhilwara, Rajasthan</item>
+        <item>Bikaner, Rajasthan</item>
+        <item>Ganganagar, Rajasthan</item>
+        <item>Hanumangarh, Rajasthan</item>
+        <item>Jaipur, Rajasthan</item>
+        <item>Jhunjhunun, Rajasthan</item>
+        <item>Jodhpur, Rajasthan</item>
+        <item>Kishangarh, Rajasthan</item>
+        <item>Kota, Rajasthan</item>
+        <item>Pali, Rajasthan</item>
+        <item>Sikar, Rajasthan</item>
+        <item>Tonk, Rajasthan</item>
+        <item>Udaipur, Rajasthan</item>
+
+        <item>Alandur,Tamil Nadu</item>
+        <item>Ambattur,Tamil Nadu</item>
+        <item>Avadi,Tamil Nadu</item>
+        <item>Chennai,Tamil Nadu</item>
+        <item>Coimbatore,Tamil Nadu</item>
+        <item>Cuddalore,Tamil Nadu</item>
+        <item>Dindigul,Tamil Nadu</item>
+        <item>Erode,Tamil Nadu</item>
+        <item>Kancheepuram,Tamil Nadu</item>
+
+        <item>Kumbakonam,Tamil Nadu</item>
+        <item>Madurai,Tamil Nadu</item>
+        <item>Nagercoil,Tamil Nadu</item>
+        <item>Neyveli,Tamil Nadu</item>
+        <item>Pallavaram,Tamil Nadu</item>
+        <item>Pudukkottai,Tamil Nadu</item>
+        <item>Rajapalayam,Tamil Nadu</item>
+        <item>Salem,Tamil Nadu</item>
+        <item>Tambaram,Tamil Nadu</item>
+        <item>Thanjavur,Tamil Nadu</item>
+        <item>Thoothukkudi,Tamil Nadu</item>
+        <item>Tiruchirappalli,Tamil Nadu</item>
+        <item>Tirunelveli,Tamil Nadu</item>
+        <item>Tiruppur,Tamil Nadu</item>
+        <item>Tiruvannamalai,Tamil Nadu</item>
+        <item>Tiruvottiyur,Tamil Nadu</item>
+        <item>Vellore,Tamil Nadu</item>
+
+        <item>Agra, Uttar Pradesh</item>
+        <item>Aligarh, Uttar Pradesh</item>
+        <item>Allahabad, Uttar Pradesh</item>
+        <item>Amroha, Uttar Pradesh</item>
+        <item>Azamgarh, Uttar Pradesh</item>
+        <item>Bahraich, Uttar Pradesh</item>
+        <item>Ballia, Uttar Pradesh</item>
+        <item>Banda, Uttar Pradesh</item>
+        <item>Bareilly, Uttar Pradesh</item>
+        <item>Basti, Uttar Pradesh</item>
+        <item>Budaun, Uttar Pradesh</item>
+        <item>Bulandshahr, Uttar Pradesh</item>
+        <item>Chandausi, Uttar Pradesh</item>
+        <item>Deoria, Uttar Pradesh</item>
+        <item>Etah, Uttar Pradesh</item>
+        <item>Etawah, Uttar Pradesh</item>
+        <item>Faizaba, Uttar Pradesh</item>
+        <item>Farrukhabad, Uttar Pradesh</item>
+        <item>Fatehpur, Uttar Pradesh</item>
+        <item>Firozabad, Uttar Pradesh</item>
+        <item>Ghaziabad, Uttar Pradesh</item>
+        <item>Gonda, Uttar Pradesh</item>
+        <item>Gorakhpur, Uttar Pradesh</item>
+        <item>Hapur, Uttar Pradesh</item>
+        <item>Hardoi, Uttar Pradesh</item>
+        <item>Hathras, Uttar Pradesh</item>
+        <item>Jaunpur, Uttar Pradesh</item>
+
+
+        <item>Jhansi, Uttar Pradesh</item>
+        <item>Kanpur, Uttar Pradesh</item>
+        <item>Lakhimpur, Uttar Pradesh</item>
+        <item>Lalitpur, Uttar Pradesh</item>
+        <item>Loni, Uttar Pradesh</item>
+        <item>Mathura, Uttar Pradesh</item>
+        <item>Meerut, Uttar Pradesh</item>
+        <item>Lucknow, Uttar Pradesh</item>
+        <item>Mirzapur, Uttar Pradesh</item>
+        <item>Modinagar, Uttar Pradesh</item>
+        <item>Moradabad, Uttar Pradesh</item>
+        <item>Muzaffarnagar, Uttar Pradesh</item>
+        <item>Noida, Uttar Pradesh</item>
+        <item>Orai, Uttar Pradesh</item>
+        <item>Pilibhit, Uttar Pradesh</item>
+
+        <item>Rae Bareli, Uttar Pradesh</item>
+        <item>Rampur, Uttar Pradesh</item>
+        <item>Saharanpur, Uttar Pradesh</item>
+        <item>Sambhal, Uttar Pradesh</item>
+        <item>Shahjahanpur, Uttar Pradesh</item>
+        <item>Sitapur, Uttar Pradesh</item>
+        <item>Sultanpur, Uttar Pradesh</item>
+        <item>Unnao, Uttar Pradesh</item>
+        <item>Varanasi, Uttar Pradesh</item>
+
+        <item>Dehradun, Uttarakhand</item>
+        <item>Haldwani, Uttarakhand</item>
+        <item>Haridwar, Uttarakhand</item>
+        <item>Nainital, Uttarakhand</item>
+
+        <item>Asansol, West Bengal</item>
+        <item>Ashoknagar, West Bengal</item>
+        <item>Baharampur, West Bengal</item>
+        <item>Baidyabati, West Bengal</item>
+        <item>Bally, West Bengal</item>
+        <item>Balurghat, West Bengal</item>
+        <item>Banga, West Bengal</item>
+        <item>Bankura, West Bengal</item>
+        <item>Bansberia, West Bengal</item>
+        <item>Baranagar, West Bengal</item>
+        <item>Barasat, West Bengal</item>
+        <item>Barddhaman, West Bengal</item>
+        <item>Barrackpur, West Bengal</item>
+        <item>Basirhat, West Bengal</item>
+        <item></item>Bhadreswar, West Bengal
+        <item></item>Bhatpara, West Bengal
+        <item>Bidhan Nagar, West Bengal</item>
+        <item>Champdani, West Bengal</item>
+        <item>Chandannagar, West Bengal</item>
+        <item>Darjeeling, West Bengal</item>
+        <item>Dumdum, West Bengal</item>
+        <item>Durgapur, West Bengal</item>
+        <item>Haora, West Bengal</item>
+        <item>Hugli-Chinsurah, West Bengal</item>
+        <item>Jalpaiguri, West Bengal</item>
+        <item>Jamuria, West Bengal</item>
+        <item>Kharagpur, West Bengal</item>
+        <item>Khardaha, West Bengal</item>
+        <item>Kolkata, West Bengal</item>
+        <item>Krishnanagar, West Bengal</item>
+        <item>Kulti, West Bengal</item>
+        <item>Madhyamgram, West Bengal</item>
+        <item>Maheshtala, West Bengal</item>
+        <item>Medinipur, West Bengal</item>
+        <item>Nabadwip, West Bengal</item>
+        <item>Rishra, West Bengal</item>
+        <item>Santipur, West Bengal</item>
+        <item>Serampore, West Bengal</item>
+        <item>Siliguri, West Bengal</item>
+        <item>South Dumdum, West Bengal</item>
+        <item>Titagarh, West Bengal</item>
+
+    </string-array>
+    <string-array name="category">
+        <item>AC SLEEPER</item>
+        <item>AC SEMI SLEEPER</item>
+        <item>NON-AC SLEEPER</item>
+        <item>NON-AC SEMI SLEEPER</item>
+        <item>NON-AC NON SLEEPER</item>
+    </string-array>
+
+</resources>

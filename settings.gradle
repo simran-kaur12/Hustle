@@ -1,0 +1,25 @@
+// settings.gradle
+
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        maven { url 'https://jitpack.io' } // <-- Add this line if it's missing
+
+    }
+}
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.8.0'
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS) // Or your preferred mode
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' } // <-- Add this line if it's missing
+    }
+}
+rootProject.name = "Hustle"
+include ':app'

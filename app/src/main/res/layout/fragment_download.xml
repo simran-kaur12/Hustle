@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".fragments.DownloadFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/whiteTextColor"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:baselineAlignBottom="true"
+                    android:layout_width="81dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="-15dp"
+                    android:background="@color/whiteTextColor"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/ic_baseline_arrow_back_24"
+                    tools:ignore="ImageContrastCheck" />
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="BOOKING ID"
+            android:layout_marginTop="60dp"
+            android:textSize="16sp"
+            android:paddingTop="8dp"
+            android:padding="10dp"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/calibri"
+            app:drawableStartCompat="@drawable/ic_baseline_airline_seat_recline_extra_24" />
+
+        <Spinner
+            android:id="@+id/book"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/todo"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <Button
+            android:id="@+id/GET_YOUR_TICKET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/calibri"
+            android:text="GET YOUR TICKET"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
